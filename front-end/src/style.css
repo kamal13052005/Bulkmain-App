@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevents accidental horizontal scrolling */
+}
+
+#header-1 {
+  color: white;
+  padding: 5px;
+  font: bold;
+  background-color: darkblue;
+  text-align: center;
+}
+#header-2 {
+  color: white;
+  padding: 5px;
+  font-size: small;
+  background-color: blue;
+  text-align: center;
+}
+#header-3{
+  color: white;
+  padding: 5px;
+  font-size: x-small;
+  background-color: rgba(0, 0, 255, 0.728);
+  text-align: center;
+}
+#desc {
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    width: 100%;          
+    color: black;
+    padding: 20px;
+}
+
+#text {
+    width: 50%;      
+    height: 100px;    
+    padding: 15px;   
+    font-size: 16px; 
+    border-radius: 8px; 
+    resize: vertical; 
+}
+#desc input{
+  margin-top: 10px;
+  padding: 10px;
+  border: 4px dashed white;
+}
+.sendbtn {
+    display: inline-block;
+    padding: 12px 32px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    outline: none;
+}
+.sendbtn:hover {
+    background: linear-gradient(135deg, #a777e3, #6e8efb);
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 20px rgba(110, 142, 251, 0.4);
+}
+.sendbtn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+#footer {
+  background-color: MidnightBlue;
+  color: GhostWhite;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 0;
+  border-top: 2px solid BlueViolet;
+}
+
+#footer p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: LightGray;
+}
+
+.footer-links span {
+  margin: 0 15px;
+  font-size: 0.8rem;
+  color: SlateGray;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-links span:hover {
+  color: DeepSkyBlue;
+}
